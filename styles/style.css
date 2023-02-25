@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+
+html{
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+header > nav > ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    font-size: 18px;
+    border-bottom: 3px solid rgba(17, 17, 17, 0.549);
+    padding: 30px 0 40px 0;
+}
+
+header > nav > ul > li > a{
+    color: #111;
+    text-decoration: none;
+    transition: all .3s;
+    font-weight: 900;
+}
+
+header > nav > ul > li > a:hover{
+    color: #c8728b;
+}
+
+main > .info{
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+    align-items: center;
+}
+
+main > .info > h4{
+    font-size: 18px;
+}
+
+main > .info > h1{
+    font-size: 47.3px;
+    line-height: 59px;
+}
+
+main > .image{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    color: #070707;
+}
+
+section > .about{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    background: linear-gradient(to right top, #355c7d, #6c5b7b, #c06c84);
+    height: 506px;
+    text-align: center;
+    color: rgb(237, 237, 237);
+}
+
+section > .about > h1{
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 42px;
+}
+
+section > .about > .denis-info{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+section > .skills{
+    margin-top: 100px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+section > .skills > h1{
+    font-size: 34px;
+    line-height: 42px;
+    font-weight: 700;
+}
+
+section > .skills > p{
+    font-size: 18px;
+    line-height: 22px;
+}
+
+section > .skills > .dev-programs{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: #07070788;
+}
+
+section > .skills > .dev-programs > figure > .adobe{
+    width: 150px;
+    height: auto;
+}
+
+section > .skills > .dev-programs > figure > .figma-logo{
+    width: 60px;
+    height: auto;
+    padding-bottom: 37px;
+}
+
+/* section > .skills > .dev-programs > figure > .photoshop{
+    width: 180px;
+    height: auto;
+}
+
+section > .skills > .dev-programs > figure > .after-effects{
+    width: 210px;
+    height: auto;
+}
+
+section > .skills > .dev-programs > figure > .illustrator{
+    padding-bottom: 11px;
+} */
+
+section > .portfolio{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(to right top, #355c7d, #6c5b7b, #c06c84);
+    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+section > .portfolio > h1{
+    font-size: 34px;
+    font-weight: 700;margin-bottom: 100px;
+    color: #fff;
+}
+
+section > .portfolio > .portfolio-imgs{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: #070707;
+    color: #fff;
+    padding: 150px 0 150px 0;
+}
+
+footer > .contacts > h1{
+    font-size: 34px;
+    line-height: 42px;
+    font-weight: 700;
+}
+
+footer > .contacts > button{
+    border-radius: 30px;
+    background: linear-gradient(to right top, #355c7d, #6c5b7b, #c06c84);
+    padding: 13px 40px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all .4s ease-in-out;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 100;
+    border: none;
+}
+
+footer > .contacts > button:hover{
+    box-shadow: 0px 0px 20px #fff;
+}
